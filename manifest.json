@@ -1,0 +1,22 @@
+{
+  "name": "BSFT Dev",
+  "description": "Display raw data objects",
+  "version": "0.0.1",
+  "background": {
+     "scripts": ["background.js"],
+     "persistent": false
+   },
+  "browser_action": {
+      "name": "Dev",
+      "default_icon" : "assets/dev_disabled.png",
+      "default_title" : "BSFT DEV"
+  },
+  "permissions": ["declarativeContent","tabs"],
+  "icons" : {
+    "16": "assets/dev_enabled.png",
+    "48": "assets/dev_enabled.png",
+    "128" : "assets/dev_enabled.png"
+  },
+  
+  "manifest_version": 2
+}
